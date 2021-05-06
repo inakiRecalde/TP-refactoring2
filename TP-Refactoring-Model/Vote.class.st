@@ -3,7 +3,7 @@ Class {
 	#superclass : #Object,
 	#instVars : [
 		'isLike',
-		'timstamp',
+		'timestamp',
 		'publication',
 		'user'
 	],
@@ -35,7 +35,7 @@ Vote >> dislike [
 { #category : #initialize }
 Vote >> initialize [
 	isLike := true.
-	timstamp := DateAndTime now.
+	timestamp := DateAndTime now.
 	
 ]
 
