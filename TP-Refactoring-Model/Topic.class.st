@@ -18,8 +18,8 @@ Topic class >> name: aName description: aDescription [
 ]
 
 { #category : #accessing }
-Topic >> addQuestion: aQuetion [
-	questions add: aQuetion 
+Topic >> addQuestion: aQuestion [
+	questions add: aQuestion 
 ]
 
 { #category : #accessing }
